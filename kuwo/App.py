@@ -226,7 +226,7 @@ class App:
         def on_status_icon_popup_menu(status_icon, event_button,
                                       event_time):
             menu.popup(None, None,
-                    lambda a,b: Gtk.StatusIcon.position_menu(menu, status_icon),
+                    Gtk.StatusIcon.position_menu,
                     None, event_button, event_time)
 
         def on_status_icon_activate(tatus_icon):
