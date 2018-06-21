@@ -1,3 +1,7 @@
 data/
 README.md.html
 kuwo_test/
+.pybuild
+build
+.debhelper
+__pycache__/

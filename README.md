@@ -20,6 +20,12 @@ kwplayer是一款运行在linux桌面的网络音乐播放器, 它使用
 * Fedora 19
 * Arch Linux
 
+打包
+====
+deb 包打包命令::
+
+    dpkg-buildpackage -b --no-sign -rfakeroot
+
 
 安装
 ====
